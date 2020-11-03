@@ -1,0 +1,294 @@
+# Page settings
+
+baseURL = "http://nazabo.com/"
+languageCode = "en"
+title = "The Data Scientist you are looking for"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "Zaborskaia Nadezhda - Data Scientist"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Nadezhda Zaborskaia"
+        tagline = "Data Scientist"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Hamburg, Germany"
+
+        #[[params.contact.list]]
+        #icon = "fas fa-phone-square"
+        #url = "tel:+4917630140881"
+        #text = "+49 176 30140881"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:zaborskaiang@gmail.com"
+        text = "zaborskaiang@gmail.com"
+#        [[params.contact.list]]
+#        icon = "fas fa-globe"
+#        url = "#"
+#        text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical skills"
+        [[params.skills.list.items]]
+        details = "Python/R"
+        [[params.skills.list.items]]
+        details = "SQL (PrestoDB,HiveQL)"
+        [[params.skills.list.items]]
+	       details = "Jupyter/PyCharm/R-Studio"
+        [[params.skills.list.items]]
+        details = "GitHub/GitLab/MlFlow"
+
+        [[params.skills.list]]
+        title = "Additional Skills"
+        [[params.skills.list.items]]
+        details = "Mathematical statistics(NumPy, Pandas, SciPy)"
+	      [[params.skills.list.items]]
+	      details = "Designing and developing ML models(Scikit-learn, Tensorflow)"
+        [[params.skills.list.items]]
+        details = "Image processing (OpenCV)"
+	      [[params.skills.list.items]]
+	      details = "Data mining"
+	      [[params.skills.list.items]]
+        details = "Exploratory Data analysis"
+	      [[params.skills.list.items]]
+        details = "Data visualisation (Matplotlib,Seaborn, Plotly, Folium,OSMnx)"
+        [[params.skills.list.items]]
+        details = "Data scrapping (request), Data Storage (Amazon S3)"
+
+        [[params.skills.list]]
+        title = "Soft Skills"
+        [[params.skills.list.items]]
+	      details = "Communication and presentation skills"
+	      [[params.skills.list.items]]
+	      details = "Team player"
+	      [[params.skills.list.items]]
+	      details = "Knowledge of agile development(Scrum)"
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Data Science"
+        university = "Leuphana University of Lüneburg"
+        dates = "2016 - 2020"
+        [[params.education.list]]
+        degree = "Diploma of Specialist in Finance"
+        university = "Moscow State University Of Railway Engineering (MIIT)"
+        dates = "2007 - 2013"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+       # [[params.awards.list]]
+       # name = "Award Lorem Ipsum"
+       # body = "Microsoft lorem ipsum"
+       # date = "2019"
+       # [[params.awards.list]]
+       # name = "Award Donec Sodales"
+       # body = "Oracle Aenean"
+       # date = "2017"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Russian"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Advanced"
+        [[params.languages.list]]
+        name = "German"
+        level = "Beginner"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Repair mobile gadgets"
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Piano playing"
+        [[params.interests.list]]
+        name = "Raspberry pi"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am a highly motivated and curious data scientist, specialising in Machine Learning and statistical methods in data analysis. Problem solving is my creed. I am interested in new technologies and in their application to improve business processes."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Working Student Data Scientist"
+        dates = "01/2019 - 05/2020"
+        company = "Free Now (formerly Mytaxi)"
+        #details = "AAA"
+        [[params.experience.list.items]]
+        details = "Worked on Customer Lifetime Value prediction project with application different Machine Learning techniques in MlFlow, using customer behaviour data. Master thesis: 'Prediction of Customer Lifetime Value using machine learning techniques in e-commerce' ([Abstract](/pdf/Abstract_Zaborskaia.pdf))."
+        [[params.experience.list.items]]
+        details = "Optimised Python code in PySpark for city simulation project."
+        [[params.experience.list.items]]
+        details = "Performed city analysis for UX team, using osmnx package for geospatial data visualisation, building infographics."
+	      [[params.experience.list.items]]
+        details = "Participated in technical meetings with presentation of results and discussion."
+
+        [[params.experience.list]]
+        title = "Financial Specialist"
+        dates = "09/2013 - 08/2015"
+        company = "Mosgortrans"
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Conducted payment analysis, payables management, overdue monitoring and salary financing via SAP enterprise software."
+        [[params.experience.list.items]]
+        details = "Analysed payables and created monthly funding plans for each branch of the Mosgortrans network (40 enterprises)."
+	[[params.experience.list.items]]
+        details = "Worked with cash account of Mosgortrans, analysing daily balance for controlling cash flows."
+
+        [[params.experience.list]]
+        title = "Junior Financial Specialist"
+        dates = "08/2010 - 08/2013"
+        company = "Mosgortrans"
+        [[params.experience.list.items]]
+        details = "Evaluated daily company's income from public transportation and reported to Chief accountant."
+	[[params.experience.list.items]]
+        details = "Developed monthly reports for the Economical department and company KPI dashboard for the Accounting department."
+        [[params.experience.list.items]]
+        details = "Analysed Statement of Financial Position for half-year report and created annual report for CEO."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Public talk: Mlflow project from scratch"
+	      meta = "08/2019"
+        tagline = "Introduction to the tracking component of [MlFlow platform with practical examples](https://night.berlin.python.pizza/?ref=python.pizza)."
+
+        [[params.projects.list]]
+        title = "WSIL (When should I leave) web platform"
+        meta = "10/2017"
+        tagline = "[A web platform WSIL](https://devpost.com/software/when-should-i-leave-a1f74h) offers mapped crowd monitoring and live commute-time predictions to ease and moderate passenger flow."
+
+        [[params.projects.list]]
+        title = "GamePlane app for iOS"
+	      meta = "06/2017"
+        tagline = "Our project is to entertain you during a waiting time. A [GamePlane](https://docs.google.com/presentation/d/1V-9fcgbYh-9d7J4AOo7IG0_sJ6i5kf7TWtUkru9EKlw/edit?usp=sharing) app have been created for gamification passenger's time at the airport."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Posts"
+        [[params.information.list.items]]
+	      details = "Medium 2019 · [Once upon a New Year Eve](https://medium.com/inside-freenow/once-upon-a-new-years-eve-63285731120a)"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "My discussion club: [SofaTalks](https://www.sofatalks.club), repair mobile gadgets, Raspberry pi, Piano playing, Travelling"
+
+
+      [params.takeaway]
+        enable = true
+
+        [[params.takeaway.list]]
+        #title = "Documents"
+        details = "[CV](/pdf/CV.pdf)"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/NadyZabi"
+        title = "NadyZabi"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/nadezhda-zaborskaia-473015a6/"
+        title = "Nadezhda Zaborskaia"
+        [[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #url = "//twitter.com/username"
+        #title = "@username"
+	      icon = "fab fa-instagram"
+        url = "//instagram.com/racconti/?hl=de"
+        title = "@racconti"
