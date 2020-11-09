@@ -230,6 +230,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
+        [[params.projects.list]]
+        title = "Study Projects:"
+        meta = "10/2016-02/2018"
+	      [[params.projects.list.items]]
+        tagline = "12/2016 - Research of frequency of UFO observations in USA by states and patterns between airports location and UFO appearance (implementation in R)."
+        [[params.projects.list.items]]
+        tagline = "03/2017 - Data in genomics industry (Overview)."
+        [[params.projects.list.items]]
+        tagline = "06/2017 - Implementation of an online retailer into «Redis» database (implementation in Redis via shell)."
+        [[params.projects.list.items]]
+        tagline = "07/2017 - Hadoop VS Spark. Implement two algorithms in Hadoop as well as in Spark and evaluate the performance in terms of speed of both frameworks and for the algorithms (implementation in Hadoop via Cloudera VM)."
+        [[params.projects.list.items]]
+        tagline = "08/2017 - Analysing Networks. Estimating the sensitivity of centrality measures w.r.t. measurement errors (implementation in R and Python 2.7)."
+        [[params.projects.list.items]]
+        tagline = "12/2017 - Content Analysis and Codebook for Instagram incl. online survey."
+        [[params.projects.list.items]]
+        tagline = "02/2018 - Salary prediction based on Stack Overflow survey."
 
         [[params.projects.list]]
         title = "Public talk: Mlflow project from scratch"
@@ -265,7 +282,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.takeaway.list]]
         #title = "Documents"
-        details = "[CV](/pdf/CV.pdf)"
+        details = "[CV](/pdf/CV.pdf)(ENG)"
 
 
 
